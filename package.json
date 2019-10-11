@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "docker-lambda": "^0.15.3",
+    "serverless": "^1.54.0",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "nodeB": "serverless create --template aws-nodejs --path lambda-test"
+  }
+}
