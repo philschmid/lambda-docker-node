@@ -5,7 +5,7 @@ console.log("Preparing to test docker images");
 
 var theEvent = { tests: { "1": "self.assertEqual(2,2)" } };
 
-// docker run -v "$PWD":/var/task lambci/lambda index.handler '{"some": "event"}
+//  docker run -v "$PWD":/var/task lambci/lambda src/index.foo '{"some": "event"}
 try {
   var lambdaCallbackResult = dockerLambda({
     dockerImage: "lambci/lambda:nodejs10.x",

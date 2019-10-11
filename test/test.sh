@@ -1,0 +1,1 @@
+docker run --rm -v "$PWD":/var/task lambci/lambda:nodejs10.x src/index.foo '{"some": "event"}';

@@ -5,6 +5,7 @@
     "typescript": "^3.6.4"
   },
   "scripts": {
-    "nodeB": "serverless create --template aws-nodejs --path lambda-test"
+    "test": "node ./test/test.js",
+    "docker": "./test/test.sh"
   }
 }
